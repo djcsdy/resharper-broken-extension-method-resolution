@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenExtensionMethodResolution", "BrokenExtensionMethodResolution\BrokenExtensionMethodResolution.csproj", "{7109CD14-BCB1-4974-8D7C-15F89CBAEB00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Furniture", "Furniture\Furniture.csproj", "{B5657874-7793-4FC2-846E-A799987B5799}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7109CD14-BCB1-4974-8D7C-15F89CBAEB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7109CD14-BCB1-4974-8D7C-15F89CBAEB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7109CD14-BCB1-4974-8D7C-15F89CBAEB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7109CD14-BCB1-4974-8D7C-15F89CBAEB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5657874-7793-4FC2-846E-A799987B5799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5657874-7793-4FC2-846E-A799987B5799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5657874-7793-4FC2-846E-A799987B5799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5657874-7793-4FC2-846E-A799987B5799}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
