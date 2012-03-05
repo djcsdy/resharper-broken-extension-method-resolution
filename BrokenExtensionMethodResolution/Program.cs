@@ -13,7 +13,8 @@ namespace BrokenExtensionMethodResolution
 			           		Tablecloths = new List<Tablecloth>()
 			           	};
 
-			room.CherrywoodHatstands.DoFengShui(); // ReSharper reports an error on this line.
+			var cherrywoodHatstands = room.CherrywoodHatstands;
+			cherrywoodHatstands.DoFengShui(); // ReSharper reports an error on this line.
 			room.Tablecloths.DoFengShui();
 		}
 	}
